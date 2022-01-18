@@ -256,3 +256,4 @@ impl crate::Resettable for SSPIMSC_SPEC {
         0
     }
 }
+impl crate::markers::AtomicMarker for SSPIMSC_SPEC {}

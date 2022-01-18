@@ -142,3 +142,4 @@ impl crate::Resettable for UARTIFLS_SPEC {
         0x12
     }
 }
+impl crate::markers::AtomicMarker for UARTIFLS_SPEC {}

@@ -411,3 +411,4 @@ impl crate::Resettable for IC_ENABLE_SPEC {
         0
     }
 }
+impl crate::markers::AtomicMarker for IC_ENABLE_SPEC {}

@@ -113,3 +113,4 @@ impl crate::Resettable for PERFCTR1_SPEC {
         0
     }
 }
+impl crate::markers::AtomicMarker for PERFCTR1_SPEC {}

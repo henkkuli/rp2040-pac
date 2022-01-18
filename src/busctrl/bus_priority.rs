@@ -256,3 +256,4 @@ impl crate::Resettable for BUS_PRIORITY_SPEC {
         0
     }
 }
+impl crate::markers::AtomicMarker for BUS_PRIORITY_SPEC {}

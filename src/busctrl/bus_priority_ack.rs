@@ -59,3 +59,4 @@ impl crate::Resettable for BUS_PRIORITY_ACK_SPEC {
         0
     }
 }
+impl crate::markers::AtomicMarker for BUS_PRIORITY_ACK_SPEC {}

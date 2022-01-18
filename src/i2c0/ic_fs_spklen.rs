@@ -111,3 +111,4 @@ impl crate::Resettable for IC_FS_SPKLEN_SPEC {
         0x07
     }
 }
+impl crate::markers::AtomicMarker for IC_FS_SPKLEN_SPEC {}

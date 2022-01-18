@@ -135,3 +135,4 @@ impl crate::Resettable for SSPSR_SPEC {
         0x03
     }
 }
+impl crate::markers::AtomicMarker for SSPSR_SPEC {}

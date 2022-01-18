@@ -144,3 +144,4 @@ impl crate::Resettable for DIV_SPEC {
         0x10
     }
 }
+impl crate::markers::AtomicMarker for DIV_SPEC {}

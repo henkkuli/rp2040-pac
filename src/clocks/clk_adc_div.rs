@@ -105,3 +105,4 @@ impl crate::Resettable for CLK_ADC_DIV_SPEC {
         0x0100
     }
 }
+impl crate::markers::AtomicMarker for CLK_ADC_DIV_SPEC {}

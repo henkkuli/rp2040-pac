@@ -67,3 +67,4 @@ impl crate::Resettable for PROC1_NMI_MASK_SPEC {
         0
     }
 }
+impl crate::markers::AtomicMarker for PROC1_NMI_MASK_SPEC {}

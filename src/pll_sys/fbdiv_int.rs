@@ -106,3 +106,4 @@ impl crate::Resettable for FBDIV_INT_SPEC {
         0
     }
 }
+impl crate::markers::AtomicMarker for FBDIV_INT_SPEC {}

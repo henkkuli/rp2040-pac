@@ -75,3 +75,4 @@ impl crate::Resettable for FIFO_SPEC {
         0
     }
 }
+impl crate::markers::AtomicMarker for FIFO_SPEC {}

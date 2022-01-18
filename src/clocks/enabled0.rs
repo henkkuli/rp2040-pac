@@ -675,3 +675,4 @@ impl crate::Resettable for ENABLED0_SPEC {
         0
     }
 }
+impl crate::markers::AtomicMarker for ENABLED0_SPEC {}

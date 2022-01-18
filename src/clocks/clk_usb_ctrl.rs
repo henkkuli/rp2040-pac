@@ -394,3 +394,4 @@ impl crate::Resettable for CLK_USB_CTRL_SPEC {
         0
     }
 }
+impl crate::markers::AtomicMarker for CLK_USB_CTRL_SPEC {}

@@ -568,3 +568,4 @@ impl crate::Resettable for IC_DATA_CMD_SPEC {
         0
     }
 }
+impl crate::markers::AtomicMarker for IC_DATA_CMD_SPEC {}

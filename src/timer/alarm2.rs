@@ -69,3 +69,4 @@ impl crate::Resettable for ALARM2_SPEC {
         0
     }
 }
+impl crate::markers::AtomicMarker for ALARM2_SPEC {}

@@ -106,3 +106,4 @@ impl crate::Resettable for FC0_INTERVAL_SPEC {
         0x08
     }
 }
+impl crate::markers::AtomicMarker for FC0_INTERVAL_SPEC {}

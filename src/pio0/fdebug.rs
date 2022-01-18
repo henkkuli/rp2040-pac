@@ -216,3 +216,4 @@ impl crate::Resettable for FDEBUG_SPEC {
         0
     }
 }
+impl crate::markers::AtomicMarker for FDEBUG_SPEC {}

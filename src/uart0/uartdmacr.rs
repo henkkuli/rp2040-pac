@@ -209,3 +209,4 @@ impl crate::Resettable for UARTDMACR_SPEC {
         0
     }
 }
+impl crate::markers::AtomicMarker for UARTDMACR_SPEC {}

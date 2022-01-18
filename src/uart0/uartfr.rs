@@ -215,3 +215,4 @@ impl crate::Resettable for UARTFR_SPEC {
         0x90
     }
 }
+impl crate::markers::AtomicMarker for UARTFR_SPEC {}

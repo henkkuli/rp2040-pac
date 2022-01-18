@@ -404,3 +404,4 @@ impl crate::Resettable for IRQ_SETUP_1_SPEC {
         0
     }
 }
+impl crate::markers::AtomicMarker for IRQ_SETUP_1_SPEC {}

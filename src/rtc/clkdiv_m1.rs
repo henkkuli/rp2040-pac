@@ -105,3 +105,4 @@ impl crate::Resettable for CLKDIV_M1_SPEC {
         0
     }
 }
+impl crate::markers::AtomicMarker for CLKDIV_M1_SPEC {}

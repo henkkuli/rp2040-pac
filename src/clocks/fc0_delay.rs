@@ -106,3 +106,4 @@ impl crate::Resettable for FC0_DELAY_SPEC {
         0x01
     }
 }
+impl crate::markers::AtomicMarker for FC0_DELAY_SPEC {}

@@ -70,3 +70,4 @@ impl crate::Resettable for DORMANT_SPEC {
         0
     }
 }
+impl crate::markers::AtomicMarker for DORMANT_SPEC {}

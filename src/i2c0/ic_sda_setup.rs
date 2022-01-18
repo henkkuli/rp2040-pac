@@ -112,3 +112,4 @@ impl crate::Resettable for IC_SDA_SETUP_SPEC {
         0x64
     }
 }
+impl crate::markers::AtomicMarker for IC_SDA_SETUP_SPEC {}

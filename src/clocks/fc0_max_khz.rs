@@ -105,3 +105,4 @@ impl crate::Resettable for FC0_MAX_KHZ_SPEC {
         0x01ff_ffff
     }
 }
+impl crate::markers::AtomicMarker for FC0_MAX_KHZ_SPEC {}

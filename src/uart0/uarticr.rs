@@ -585,3 +585,4 @@ impl crate::Resettable for UARTICR_SPEC {
         0
     }
 }
+impl crate::markers::AtomicMarker for UARTICR_SPEC {}

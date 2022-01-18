@@ -55,3 +55,4 @@ impl crate::Resettable for SSPPCELLID1_SPEC {
         0xf0
     }
 }
+impl crate::markers::AtomicMarker for SSPPCELLID1_SPEC {}

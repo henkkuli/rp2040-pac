@@ -729,3 +729,4 @@ impl crate::Resettable for GPIO_CTRL_SPEC {
         0x1f
     }
 }
+impl crate::markers::AtomicMarker for GPIO_CTRL_SPEC {}

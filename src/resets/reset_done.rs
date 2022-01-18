@@ -535,3 +535,4 @@ impl crate::Resettable for RESET_DONE_SPEC {
         0
     }
 }
+impl crate::markers::AtomicMarker for RESET_DONE_SPEC {}

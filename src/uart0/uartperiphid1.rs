@@ -75,3 +75,4 @@ impl crate::Resettable for UARTPERIPHID1_SPEC {
         0x10
     }
 }
+impl crate::markers::AtomicMarker for UARTPERIPHID1_SPEC {}

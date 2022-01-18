@@ -817,3 +817,4 @@ impl crate::Resettable for IC_INTR_STAT_SPEC {
         0
     }
 }
+impl crate::markers::AtomicMarker for IC_INTR_STAT_SPEC {}

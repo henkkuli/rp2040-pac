@@ -95,3 +95,4 @@ impl crate::Resettable for CHIP_ID_SPEC {
         0
     }
 }
+impl crate::markers::AtomicMarker for CHIP_ID_SPEC {}

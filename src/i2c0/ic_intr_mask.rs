@@ -1448,3 +1448,4 @@ impl crate::Resettable for IC_INTR_MASK_SPEC {
         0x08ff
     }
 }
+impl crate::markers::AtomicMarker for IC_INTR_MASK_SPEC {}

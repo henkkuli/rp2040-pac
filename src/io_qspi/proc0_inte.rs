@@ -1196,3 +1196,4 @@ impl crate::Resettable for PROC0_INTE_SPEC {
         0
     }
 }
+impl crate::markers::AtomicMarker for PROC0_INTE_SPEC {}

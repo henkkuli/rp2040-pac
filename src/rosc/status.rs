@@ -95,3 +95,4 @@ impl crate::Resettable for STATUS_SPEC {
         0
     }
 }
+impl crate::markers::AtomicMarker for STATUS_SPEC {}

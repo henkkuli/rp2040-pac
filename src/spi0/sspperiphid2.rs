@@ -75,3 +75,4 @@ impl crate::Resettable for SSPPERIPHID2_SPEC {
         0x34
     }
 }
+impl crate::markers::AtomicMarker for SSPPERIPHID2_SPEC {}

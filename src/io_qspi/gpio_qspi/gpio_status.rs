@@ -195,3 +195,4 @@ impl crate::Resettable for GPIO_STATUS_SPEC {
         0
     }
 }
+impl crate::markers::AtomicMarker for GPIO_STATUS_SPEC {}

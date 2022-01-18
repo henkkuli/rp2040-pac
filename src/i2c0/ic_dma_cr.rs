@@ -262,3 +262,4 @@ impl crate::Resettable for IC_DMA_CR_SPEC {
         0
     }
 }
+impl crate::markers::AtomicMarker for IC_DMA_CR_SPEC {}

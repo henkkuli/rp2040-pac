@@ -184,3 +184,4 @@ impl crate::Resettable for CS_SPEC {
         0x01
     }
 }
+impl crate::markers::AtomicMarker for CS_SPEC {}

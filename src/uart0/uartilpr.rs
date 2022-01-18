@@ -105,3 +105,4 @@ impl crate::Resettable for UARTILPR_SPEC {
         0
     }
 }
+impl crate::markers::AtomicMarker for UARTILPR_SPEC {}

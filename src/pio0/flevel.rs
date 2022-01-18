@@ -195,3 +195,4 @@ impl crate::Resettable for FLEVEL_SPEC {
         0
     }
 }
+impl crate::markers::AtomicMarker for FLEVEL_SPEC {}

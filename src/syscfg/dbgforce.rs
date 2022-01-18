@@ -390,3 +390,4 @@ impl crate::Resettable for DBGFORCE_SPEC {
         0x66
     }
 }
+impl crate::markers::AtomicMarker for DBGFORCE_SPEC {}

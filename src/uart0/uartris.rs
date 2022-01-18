@@ -255,3 +255,4 @@ impl crate::Resettable for UARTRIS_SPEC {
         0
     }
 }
+impl crate::markers::AtomicMarker for UARTRIS_SPEC {}

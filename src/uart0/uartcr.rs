@@ -632,3 +632,4 @@ impl crate::Resettable for UARTCR_SPEC {
         0x0300
     }
 }
+impl crate::markers::AtomicMarker for UARTCR_SPEC {}

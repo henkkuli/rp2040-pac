@@ -220,3 +220,4 @@ impl crate::Resettable for BOD_SPEC {
         0x91
     }
 }
+impl crate::markers::AtomicMarker for BOD_SPEC {}

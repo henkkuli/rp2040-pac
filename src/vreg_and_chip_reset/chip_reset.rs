@@ -183,3 +183,4 @@ impl crate::Resettable for CHIP_RESET_SPEC {
         0
     }
 }
+impl crate::markers::AtomicMarker for CHIP_RESET_SPEC {}

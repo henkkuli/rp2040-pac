@@ -115,3 +115,4 @@ impl crate::Resettable for SSPMIS_SPEC {
         0
     }
 }
+impl crate::markers::AtomicMarker for SSPMIS_SPEC {}

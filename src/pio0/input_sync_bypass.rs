@@ -69,3 +69,4 @@ impl crate::Resettable for INPUT_SYNC_BYPASS_SPEC {
         0
     }
 }
+impl crate::markers::AtomicMarker for INPUT_SYNC_BYPASS_SPEC {}

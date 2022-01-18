@@ -1196,3 +1196,4 @@ impl crate::Resettable for DORMANT_WAKE_INTE_SPEC {
         0
     }
 }
+impl crate::markers::AtomicMarker for DORMANT_WAKE_INTE_SPEC {}

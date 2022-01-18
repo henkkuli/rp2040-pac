@@ -192,3 +192,4 @@ impl crate::Resettable for TICK_SPEC {
         0x0200
     }
 }
+impl crate::markers::AtomicMarker for TICK_SPEC {}

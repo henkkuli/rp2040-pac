@@ -55,3 +55,4 @@ impl crate::Resettable for IC_COMP_VERSION_SPEC {
         0x3230_312a
     }
 }
+impl crate::markers::AtomicMarker for IC_COMP_VERSION_SPEC {}

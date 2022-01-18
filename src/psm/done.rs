@@ -375,3 +375,4 @@ impl crate::Resettable for DONE_SPEC {
         0
     }
 }
+impl crate::markers::AtomicMarker for DONE_SPEC {}

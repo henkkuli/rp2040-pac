@@ -59,3 +59,4 @@ impl crate::Resettable for IC_RXFLR_SPEC {
         0
     }
 }
+impl crate::markers::AtomicMarker for IC_RXFLR_SPEC {}

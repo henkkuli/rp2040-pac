@@ -181,3 +181,4 @@ impl crate::Resettable for IC_SLV_DATA_NACK_ONLY_SPEC {
         0
     }
 }
+impl crate::markers::AtomicMarker for IC_SLV_DATA_NACK_ONLY_SPEC {}

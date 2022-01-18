@@ -113,3 +113,4 @@ impl crate::Resettable for IC_RX_TL_SPEC {
         0
     }
 }
+impl crate::markers::AtomicMarker for IC_RX_TL_SPEC {}

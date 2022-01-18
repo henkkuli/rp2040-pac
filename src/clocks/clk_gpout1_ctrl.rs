@@ -506,3 +506,4 @@ impl crate::Resettable for CLK_GPOUT1_CTRL_SPEC {
         0
     }
 }
+impl crate::markers::AtomicMarker for CLK_GPOUT1_CTRL_SPEC {}

@@ -164,3 +164,4 @@ impl crate::Resettable for VOLTAGE_SELECT_SPEC {
         0
     }
 }
+impl crate::markers::AtomicMarker for VOLTAGE_SELECT_SPEC {}

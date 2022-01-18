@@ -1572,3 +1572,4 @@ impl crate::Resettable for WAKE_EN0_SPEC {
         0xffff_ffff
     }
 }
+impl crate::markers::AtomicMarker for WAKE_EN0_SPEC {}

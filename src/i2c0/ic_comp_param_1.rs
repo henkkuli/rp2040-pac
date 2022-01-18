@@ -197,3 +197,4 @@ impl crate::Resettable for IC_COMP_PARAM_1_SPEC {
         0
     }
 }
+impl crate::markers::AtomicMarker for IC_COMP_PARAM_1_SPEC {}

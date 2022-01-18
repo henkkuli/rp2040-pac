@@ -1140,3 +1140,4 @@ impl crate::Resettable for INTR_SPEC {
         0
     }
 }
+impl crate::markers::AtomicMarker for INTR_SPEC {}

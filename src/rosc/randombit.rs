@@ -55,3 +55,4 @@ impl crate::Resettable for RANDOMBIT_SPEC {
         0x01
     }
 }
+impl crate::markers::AtomicMarker for RANDOMBIT_SPEC {}

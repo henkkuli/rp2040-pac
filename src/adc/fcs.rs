@@ -447,3 +447,4 @@ impl crate::Resettable for FCS_SPEC {
         0
     }
 }
+impl crate::markers::AtomicMarker for FCS_SPEC {}

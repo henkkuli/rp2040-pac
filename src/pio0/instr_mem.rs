@@ -64,3 +64,4 @@ impl crate::Resettable for INSTR_MEM_SPEC {
         0
     }
 }
+impl crate::markers::AtomicMarker for INSTR_MEM_SPEC {}

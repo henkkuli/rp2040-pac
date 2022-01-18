@@ -55,3 +55,4 @@ impl crate::Resettable for RESULT_SPEC {
         0
     }
 }
+impl crate::markers::AtomicMarker for RESULT_SPEC {}

@@ -867,3 +867,4 @@ impl crate::Resettable for FRCE_ON_SPEC {
         0
     }
 }
+impl crate::markers::AtomicMarker for FRCE_ON_SPEC {}

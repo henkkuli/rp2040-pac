@@ -55,3 +55,4 @@ impl crate::Resettable for CLK_SYS_RESUS_STATUS_SPEC {
         0
     }
 }
+impl crate::markers::AtomicMarker for CLK_SYS_RESUS_STATUS_SPEC {}

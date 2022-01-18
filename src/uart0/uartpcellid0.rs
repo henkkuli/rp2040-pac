@@ -55,3 +55,4 @@ impl crate::Resettable for UARTPCELLID0_SPEC {
         0x0d
     }
 }
+impl crate::markers::AtomicMarker for UARTPCELLID0_SPEC {}

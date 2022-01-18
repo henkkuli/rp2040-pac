@@ -113,3 +113,4 @@ impl crate::Resettable for IC_DMA_RDLR_SPEC {
         0
     }
 }
+impl crate::markers::AtomicMarker for IC_DMA_RDLR_SPEC {}

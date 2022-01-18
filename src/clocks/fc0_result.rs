@@ -75,3 +75,4 @@ impl crate::Resettable for FC0_RESULT_SPEC {
         0
     }
 }
+impl crate::markers::AtomicMarker for FC0_RESULT_SPEC {}

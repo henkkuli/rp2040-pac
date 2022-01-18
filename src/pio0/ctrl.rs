@@ -203,3 +203,4 @@ impl crate::Resettable for CTRL_SPEC {
         0
     }
 }
+impl crate::markers::AtomicMarker for CTRL_SPEC {}

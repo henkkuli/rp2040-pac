@@ -198,3 +198,4 @@ impl crate::Resettable for PROC_CONFIG_SPEC {
         0x1000_0000
     }
 }
+impl crate::markers::AtomicMarker for PROC_CONFIG_SPEC {}

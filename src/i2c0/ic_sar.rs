@@ -129,3 +129,4 @@ impl crate::Resettable for IC_SAR_SPEC {
         0x55
     }
 }
+impl crate::markers::AtomicMarker for IC_SAR_SPEC {}

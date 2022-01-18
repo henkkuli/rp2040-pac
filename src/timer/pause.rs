@@ -115,3 +115,4 @@ impl crate::Resettable for PAUSE_SPEC {
         0
     }
 }
+impl crate::markers::AtomicMarker for PAUSE_SPEC {}

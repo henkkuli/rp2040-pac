@@ -327,3 +327,4 @@ impl crate::Resettable for SM_PINCTRL_SPEC {
         0x1400_0000
     }
 }
+impl crate::markers::AtomicMarker for SM_PINCTRL_SPEC {}

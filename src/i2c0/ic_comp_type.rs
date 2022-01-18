@@ -55,3 +55,4 @@ impl crate::Resettable for IC_COMP_TYPE_SPEC {
         0x4457_0140
     }
 }
+impl crate::markers::AtomicMarker for IC_COMP_TYPE_SPEC {}

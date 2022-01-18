@@ -273,3 +273,4 @@ impl crate::Resettable for VREG_SPEC {
         0xb1
     }
 }
+impl crate::markers::AtomicMarker for VREG_SPEC {}

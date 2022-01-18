@@ -573,3 +573,4 @@ impl crate::Resettable for SM_EXECCTRL_SPEC {
         0x0001_f000
     }
 }
+impl crate::markers::AtomicMarker for SM_EXECCTRL_SPEC {}

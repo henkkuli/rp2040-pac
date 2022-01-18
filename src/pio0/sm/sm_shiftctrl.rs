@@ -448,3 +448,4 @@ impl crate::Resettable for SM_SHIFTCTRL_SPEC {
         0x000c_0000
     }
 }
+impl crate::markers::AtomicMarker for SM_SHIFTCTRL_SPEC {}

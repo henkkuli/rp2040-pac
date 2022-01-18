@@ -142,3 +142,4 @@ impl crate::Resettable for CC_SPEC {
         0
     }
 }
+impl crate::markers::AtomicMarker for CC_SPEC {}

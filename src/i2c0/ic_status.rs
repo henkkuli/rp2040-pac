@@ -423,3 +423,4 @@ impl crate::Resettable for IC_STATUS_SPEC {
         0x06
     }
 }
+impl crate::markers::AtomicMarker for IC_STATUS_SPEC {}

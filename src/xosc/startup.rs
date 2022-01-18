@@ -152,3 +152,4 @@ impl crate::Resettable for STARTUP_SPEC {
         0xc4
     }
 }
+impl crate::markers::AtomicMarker for STARTUP_SPEC {}

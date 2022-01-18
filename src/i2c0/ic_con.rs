@@ -1080,3 +1080,4 @@ impl crate::Resettable for IC_CON_SPEC {
         0x65
     }
 }
+impl crate::markers::AtomicMarker for IC_CON_SPEC {}

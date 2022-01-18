@@ -105,3 +105,4 @@ impl crate::Resettable for TOP_SPEC {
         0xffff
     }
 }
+impl crate::markers::AtomicMarker for TOP_SPEC {}

@@ -144,3 +144,4 @@ impl crate::Resettable for PRIM_SPEC {
         0x0007_7000
     }
 }
+impl crate::markers::AtomicMarker for PRIM_SPEC {}

@@ -115,3 +115,4 @@ impl crate::Resettable for SSPRIS_SPEC {
         0x08
     }
 }
+impl crate::markers::AtomicMarker for SSPRIS_SPEC {}

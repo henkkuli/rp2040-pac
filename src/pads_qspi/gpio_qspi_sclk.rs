@@ -464,3 +464,4 @@ impl crate::Resettable for GPIO_QSPI_SCLK_SPEC {
         0x56
     }
 }
+impl crate::markers::AtomicMarker for GPIO_QSPI_SCLK_SPEC {}

@@ -162,3 +162,4 @@ impl crate::Resettable for DBGPAUSE_SPEC {
         0x07
     }
 }
+impl crate::markers::AtomicMarker for DBGPAUSE_SPEC {}

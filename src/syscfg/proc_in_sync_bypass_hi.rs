@@ -109,3 +109,4 @@ impl crate::Resettable for PROC_IN_SYNC_BYPASS_HI_SPEC {
         0
     }
 }
+impl crate::markers::AtomicMarker for PROC_IN_SYNC_BYPASS_HI_SPEC {}

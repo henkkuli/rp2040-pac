@@ -33,3 +33,4 @@ impl crate::Resettable for RXF_SPEC {
         0
     }
 }
+impl crate::markers::AtomicMarker for RXF_SPEC {}

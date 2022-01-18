@@ -64,3 +64,4 @@ impl crate::Resettable for LOAD_SPEC {
         0
     }
 }
+impl crate::markers::AtomicMarker for LOAD_SPEC {}

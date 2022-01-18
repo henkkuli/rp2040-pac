@@ -448,3 +448,4 @@ impl crate::Resettable for EN_SPEC {
         0
     }
 }
+impl crate::markers::AtomicMarker for EN_SPEC {}

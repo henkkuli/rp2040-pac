@@ -133,3 +133,4 @@ impl crate::Resettable for IC_FS_SCL_LCNT_SPEC {
         0x0d
     }
 }
+impl crate::markers::AtomicMarker for IC_FS_SCL_LCNT_SPEC {}

@@ -107,3 +107,4 @@ impl crate::Resettable for IRQ_SPEC {
         0
     }
 }
+impl crate::markers::AtomicMarker for IRQ_SPEC {}

@@ -47,3 +47,4 @@ impl crate::Resettable for TXF_SPEC {
         0
     }
 }
+impl crate::markers::AtomicMarker for TXF_SPEC {}

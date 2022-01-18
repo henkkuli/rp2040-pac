@@ -390,3 +390,4 @@ impl crate::Resettable for PERFSEL2_SPEC {
         0x1f
     }
 }
+impl crate::markers::AtomicMarker for PERFSEL2_SPEC {}

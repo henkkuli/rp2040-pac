@@ -48,3 +48,4 @@ impl crate::Resettable for TIMELW_SPEC {
         0
     }
 }
+impl crate::markers::AtomicMarker for TIMELW_SPEC {}

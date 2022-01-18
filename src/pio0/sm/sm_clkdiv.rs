@@ -147,3 +147,4 @@ impl crate::Resettable for SM_CLKDIV_SPEC {
         0x0001_0000
     }
 }
+impl crate::markers::AtomicMarker for SM_CLKDIV_SPEC {}

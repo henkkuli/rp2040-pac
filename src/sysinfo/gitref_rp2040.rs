@@ -33,3 +33,4 @@ impl crate::Resettable for GITREF_RP2040_SPEC {
         0
     }
 }
+impl crate::markers::AtomicMarker for GITREF_RP2040_SPEC {}

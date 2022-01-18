@@ -464,3 +464,4 @@ impl crate::Resettable for SWCLK_SPEC {
         0xda
     }
 }
+impl crate::markers::AtomicMarker for SWCLK_SPEC {}

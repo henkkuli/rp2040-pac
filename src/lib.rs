@@ -1,4 +1,4 @@
-#![doc = "Peripheral access API for RP2040 microcontrollers (generated using svd2rust v0.21.0 ( ))  
+#![doc = "Peripheral access API for RP2040 microcontrollers (generated using svd2rust v0.21.0 (8f4999b 2022-01-28))  
 
 You can find an overview of the generated API [here].  
 
@@ -38,7 +38,7 @@ pub use cortex_m::peripheral::{CBP, CPUID, DCB, DWT, FPB, ITM, MPU, NVIC, SCB, S
 pub use cortex_m_rt::interrupt;
 #[allow(unused_imports)]
 use generic::*;
-#[doc = r"Common register and bit access and modify traits"]
+#[doc = "Common register and bit access and modify traits"]
 pub mod generic;
 #[cfg(feature = "rt")]
 extern "C" {
@@ -1569,6 +1569,8 @@ impl core::fmt::Debug for PPB {
         f.debug_struct("PPB").finish()
     }
 }
+#[doc(hidden)]
+pub mod markers;
 #[doc = "PPB"]
 pub mod ppb;
 #[no_mangle]

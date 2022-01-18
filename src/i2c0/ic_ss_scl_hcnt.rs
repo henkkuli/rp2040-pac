@@ -133,3 +133,4 @@ impl crate::Resettable for IC_SS_SCL_HCNT_SPEC {
         0x28
     }
 }
+impl crate::markers::AtomicMarker for IC_SS_SCL_HCNT_SPEC {}

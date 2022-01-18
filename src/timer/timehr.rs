@@ -34,3 +34,4 @@ impl crate::Resettable for TIMEHR_SPEC {
         0
     }
 }
+impl crate::markers::AtomicMarker for TIMEHR_SPEC {}

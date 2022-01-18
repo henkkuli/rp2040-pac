@@ -272,3 +272,4 @@ impl crate::Resettable for PWR_SPEC {
         0x2d
     }
 }
+impl crate::markers::AtomicMarker for PWR_SPEC {}

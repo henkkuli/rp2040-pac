@@ -33,3 +33,4 @@ impl crate::Resettable for TIMELR_SPEC {
         0
     }
 }
+impl crate::markers::AtomicMarker for TIMELR_SPEC {}

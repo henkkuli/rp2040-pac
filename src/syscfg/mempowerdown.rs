@@ -445,3 +445,4 @@ impl crate::Resettable for MEMPOWERDOWN_SPEC {
         0
     }
 }
+impl crate::markers::AtomicMarker for MEMPOWERDOWN_SPEC {}

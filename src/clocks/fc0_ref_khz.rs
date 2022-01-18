@@ -105,3 +105,4 @@ impl crate::Resettable for FC0_REF_KHZ_SPEC {
         0
     }
 }
+impl crate::markers::AtomicMarker for FC0_REF_KHZ_SPEC {}

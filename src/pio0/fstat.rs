@@ -115,3 +115,4 @@ impl crate::Resettable for FSTAT_SPEC {
         0x0f00_0f00
     }
 }
+impl crate::markers::AtomicMarker for FSTAT_SPEC {}

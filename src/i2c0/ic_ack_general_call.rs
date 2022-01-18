@@ -168,3 +168,4 @@ impl crate::Resettable for IC_ACK_GENERAL_CALL_SPEC {
         0x01
     }
 }
+impl crate::markers::AtomicMarker for IC_ACK_GENERAL_CALL_SPEC {}

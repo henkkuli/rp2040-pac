@@ -250,3 +250,4 @@ impl crate::Resettable for CLK_SYS_RESUS_CTRL_SPEC {
         0xff
     }
 }
+impl crate::markers::AtomicMarker for CLK_SYS_RESUS_CTRL_SPEC {}

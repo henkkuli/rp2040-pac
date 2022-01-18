@@ -464,3 +464,4 @@ impl crate::Resettable for GPIO_QSPI_SD3_SPEC {
         0x52
     }
 }
+impl crate::markers::AtomicMarker for GPIO_QSPI_SD3_SPEC {}

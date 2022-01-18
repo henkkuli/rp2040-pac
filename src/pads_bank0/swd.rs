@@ -464,3 +464,4 @@ impl crate::Resettable for SWD_SPEC {
         0x5a
     }
 }
+impl crate::markers::AtomicMarker for SWD_SPEC {}

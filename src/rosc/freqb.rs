@@ -296,3 +296,4 @@ impl crate::Resettable for FREQB_SPEC {
         0
     }
 }
+impl crate::markers::AtomicMarker for FREQB_SPEC {}

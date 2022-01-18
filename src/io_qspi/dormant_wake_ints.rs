@@ -515,3 +515,4 @@ impl crate::Resettable for DORMANT_WAKE_INTS_SPEC {
         0
     }
 }
+impl crate::markers::AtomicMarker for DORMANT_WAKE_INTS_SPEC {}

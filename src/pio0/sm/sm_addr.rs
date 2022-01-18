@@ -55,3 +55,4 @@ impl crate::Resettable for SM_ADDR_SPEC {
         0
     }
 }
+impl crate::markers::AtomicMarker for SM_ADDR_SPEC {}

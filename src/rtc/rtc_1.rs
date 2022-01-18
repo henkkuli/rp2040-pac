@@ -95,3 +95,4 @@ impl crate::Resettable for RTC_1_SPEC {
         0
     }
 }
+impl crate::markers::AtomicMarker for RTC_1_SPEC {}

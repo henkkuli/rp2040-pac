@@ -105,3 +105,4 @@ impl crate::Resettable for UARTIBRD_SPEC {
         0
     }
 }
+impl crate::markers::AtomicMarker for UARTIBRD_SPEC {}

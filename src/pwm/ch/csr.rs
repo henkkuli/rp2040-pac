@@ -476,3 +476,4 @@ impl crate::Resettable for CSR_SPEC {
         0
     }
 }
+impl crate::markers::AtomicMarker for CSR_SPEC {}

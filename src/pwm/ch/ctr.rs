@@ -105,3 +105,4 @@ impl crate::Resettable for CTR_SPEC {
         0
     }
 }
+impl crate::markers::AtomicMarker for CTR_SPEC {}

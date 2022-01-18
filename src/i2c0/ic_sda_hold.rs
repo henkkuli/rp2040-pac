@@ -170,3 +170,4 @@ impl crate::Resettable for IC_SDA_HOLD_SPEC {
         0x01
     }
 }
+impl crate::markers::AtomicMarker for IC_SDA_HOLD_SPEC {}

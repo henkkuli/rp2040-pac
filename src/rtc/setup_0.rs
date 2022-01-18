@@ -179,3 +179,4 @@ impl crate::Resettable for SETUP_0_SPEC {
         0
     }
 }
+impl crate::markers::AtomicMarker for SETUP_0_SPEC {}

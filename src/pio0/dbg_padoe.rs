@@ -33,3 +33,4 @@ impl crate::Resettable for DBG_PADOE_SPEC {
         0
     }
 }
+impl crate::markers::AtomicMarker for DBG_PADOE_SPEC {}

@@ -313,3 +313,4 @@ impl crate::Resettable for FC0_SRC_SPEC {
         0
     }
 }
+impl crate::markers::AtomicMarker for FC0_SRC_SPEC {}

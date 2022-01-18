@@ -195,3 +195,4 @@ impl crate::Resettable for FC0_STATUS_SPEC {
         0
     }
 }
+impl crate::markers::AtomicMarker for FC0_STATUS_SPEC {}

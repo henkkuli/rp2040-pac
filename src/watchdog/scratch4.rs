@@ -66,3 +66,4 @@ impl crate::Resettable for SCRATCH4_SPEC {
         0
     }
 }
+impl crate::markers::AtomicMarker for SCRATCH4_SPEC {}

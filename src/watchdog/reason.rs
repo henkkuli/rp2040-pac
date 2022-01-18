@@ -75,3 +75,4 @@ impl crate::Resettable for REASON_SPEC {
         0
     }
 }
+impl crate::markers::AtomicMarker for REASON_SPEC {}

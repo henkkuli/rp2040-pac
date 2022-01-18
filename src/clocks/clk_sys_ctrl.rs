@@ -304,3 +304,4 @@ impl crate::Resettable for CLK_SYS_CTRL_SPEC {
         0
     }
 }
+impl crate::markers::AtomicMarker for CLK_SYS_CTRL_SPEC {}

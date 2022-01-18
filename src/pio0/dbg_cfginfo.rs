@@ -100,3 +100,4 @@ impl crate::Resettable for DBG_CFGINFO_SPEC {
         0
     }
 }
+impl crate::markers::AtomicMarker for DBG_CFGINFO_SPEC {}

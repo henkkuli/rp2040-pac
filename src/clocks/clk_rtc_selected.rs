@@ -34,3 +34,4 @@ impl crate::Resettable for CLK_RTC_SELECTED_SPEC {
         0x01
     }
 }
+impl crate::markers::AtomicMarker for CLK_RTC_SELECTED_SPEC {}

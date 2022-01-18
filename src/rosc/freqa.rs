@@ -302,3 +302,4 @@ impl crate::Resettable for FREQA_SPEC {
         0
     }
 }
+impl crate::markers::AtomicMarker for FREQA_SPEC {}

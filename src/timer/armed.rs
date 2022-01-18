@@ -108,3 +108,4 @@ impl crate::Resettable for ARMED_SPEC {
         0
     }
 }
+impl crate::markers::AtomicMarker for ARMED_SPEC {}

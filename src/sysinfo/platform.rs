@@ -75,3 +75,4 @@ impl crate::Resettable for PLATFORM_SPEC {
         0
     }
 }
+impl crate::markers::AtomicMarker for PLATFORM_SPEC {}

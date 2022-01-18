@@ -59,3 +59,4 @@ impl crate::Resettable for IC_CLR_RD_REQ_SPEC {
         0
     }
 }
+impl crate::markers::AtomicMarker for IC_CLR_RD_REQ_SPEC {}

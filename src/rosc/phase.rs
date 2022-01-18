@@ -256,3 +256,4 @@ impl crate::Resettable for PHASE_SPEC {
         0x08
     }
 }
+impl crate::markers::AtomicMarker for PHASE_SPEC {}

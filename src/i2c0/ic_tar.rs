@@ -310,3 +310,4 @@ impl crate::Resettable for IC_TAR_SPEC {
         0x55
     }
 }
+impl crate::markers::AtomicMarker for IC_TAR_SPEC {}

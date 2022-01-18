@@ -1198,3 +1198,4 @@ impl crate::Resettable for IC_TX_ABRT_SOURCE_SPEC {
         0
     }
 }
+impl crate::markers::AtomicMarker for IC_TX_ABRT_SOURCE_SPEC {}

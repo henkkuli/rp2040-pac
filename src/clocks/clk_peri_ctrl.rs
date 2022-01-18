@@ -315,3 +315,4 @@ impl crate::Resettable for CLK_PERI_CTRL_SPEC {
         0
     }
 }
+impl crate::markers::AtomicMarker for CLK_PERI_CTRL_SPEC {}

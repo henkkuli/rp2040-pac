@@ -106,3 +106,4 @@ impl crate::Resettable for SM_INSTR_SPEC {
         0
     }
 }
+impl crate::markers::AtomicMarker for SM_INSTR_SPEC {}

@@ -435,3 +435,4 @@ impl crate::Resettable for CS_SPEC {
         0
     }
 }
+impl crate::markers::AtomicMarker for CS_SPEC {}

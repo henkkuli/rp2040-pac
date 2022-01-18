@@ -1243,3 +1243,4 @@ impl crate::Resettable for RESET_SPEC {
         0x01ff_ffff
     }
 }
+impl crate::markers::AtomicMarker for RESET_SPEC {}

@@ -867,3 +867,4 @@ impl crate::Resettable for WDSEL_SPEC {
         0
     }
 }
+impl crate::markers::AtomicMarker for WDSEL_SPEC {}

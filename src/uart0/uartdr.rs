@@ -185,3 +185,4 @@ impl crate::Resettable for UARTDR_SPEC {
         0
     }
 }
+impl crate::markers::AtomicMarker for UARTDR_SPEC {}
